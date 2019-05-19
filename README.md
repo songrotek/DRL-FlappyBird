@@ -8,8 +8,10 @@ I rewrite the code from another repo and make it much simpler and easier to unde
 
 The code of DQN is only 160 lines long.
 
-To run the code, just type python FlappyBirdDQN.py
-
+To run the code, just type 
+```
+python FlappyBirdDQN.py
+```
 Since the DQN code is a unique class, you can use it to play other games.
 
 
@@ -17,13 +19,13 @@ Since the DQN code is a unique class, you can use it to play other games.
 
 As a reinforcement learning problem, we knows we need to obtain observations and output actions, and the 'brain' do the processing work.
 
-Therefore, you can easily understand the BrainDQN.py code. There are three interfaces:
+Therefore, you can easily understand the `BrainDQN.py` code. There are three interfaces:
 
 1. getInitState() for initialization
 2. getAction()
-3. setPerception(nextObservation,action,reward,terminal)
+3. setPerception(nextObservation, action, reward, terminal)
 
-the game interface just need to be able to feed the action to the game and output observation,reward,terminal
+The game interface just need to be able to feed the action to the game and output observation, reward, terminal
 
 
 ## Disclaimer
